@@ -1479,13 +1479,13 @@ There are many points where a safe next square cannot be determined. For example
 ![](Pasted%20image%2020231021135843.png)
 The left is the scenario, while the right is a scenario that would produce the exact same percepts. All possible paths through the first must go through either (3,1) or (1,3), but both squares are pits in the right scenario. To complete the task, R2 must travel to either (3,1) or (1,3) without being sure they are not pits.
 # 7
-
+One example of a real life use of a logical agent would be in the domain of process automation. In a manufacturing factory many agents work simultaniously to transport materials and manufactur products. These agents can be controlled using logic.
 # 8
-
+The primary difference between logical agents and search agents is that logical agents make inferences using formalized logic rules while search agents use various data structures and heuristics to explore the search space.
 # 9
-In some sense, the agent does perform search
+In some sense, the agent does perform search when determining which action to take next. We chose not to implement any formal search algorithms in this project, but there is a potential to implement search when deciding how to return from the goal state to the start state.
 # 10
-About 10 hours total work
+About 15+ hours total work
 # 11
 Several of the scenarios require blind movements, creating an agent capable of solving each scenario required finding the right logic applicable to the specific scenarios given
 # 12
