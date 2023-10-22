@@ -1471,7 +1471,7 @@ climb
 (True, [1, 1], 'Congrats! R2 has saved Luke! +1000 points! Your final score: 945')
 ```
 # 4
-
+The order in which the agent traverses unvisited, known safe squares does not change the outcome, so the agent could use any method for determining which to visit first and still succeed.
 # 5
 Due to searching for guaranteed safe paths, and not having Luke's location for pathfinding, it is not guaranteed that the agent will take the shortest path. In addition, we use the simple method of retracing all previous movement actions to return to the beginning, so the return path will nearly always be longer than necessary.
 # 6
